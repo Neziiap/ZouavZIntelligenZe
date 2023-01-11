@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e24455241804543b7411941772f756, type: 3}
+  m_Name: 10PlaceTurret
+  m_EditorClassIdentifier: 
+  id: 10
+  Time:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.015952516
+      value: 0.008217931
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.91255224
+      value: 0.57057583
+      inSlope: 0.30709955
+      outSlope: 0.30709955
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.08189064
+    - serializedVersion: 3
+      time: 4.4947834
+      value: 0.11969894
+      inSlope: -0.12586483
+      outSlope: -0.12586483
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ResourcePerMinute:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  Resources:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 7.024185
+      value: 0.010965019
+      inSlope: 0
+      outSlope: 0.10013347
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.14438133
+    - serializedVersion: 3
+      time: 14.966281
+      value: 0.98049545
+      inSlope: 0.12207489
+      outSlope: 0.12207489
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MilitaryPower:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  EnemyPower:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.029328456
+      outSlope: 0.029328456
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 9.12558
+      value: 0.26763916
+      inSlope: 0.029407395
+      outSlope: 0.106006265
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.12573013
+      outWeight: 0.06687985
+    - serializedVersion: 3
+      time: 25
+      value: 1
+      inSlope: 0.006282083
+      outSlope: 0.006282083
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.17759952
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  Ratio:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -0.4349415
+      outSlope: -0.4349415
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.050774746
+    - serializedVersion: 3
+      time: 5.007553
+      value: 0.13174513
+      inSlope: -0.05396611
+      outSlope: -0.05396611
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.079114914
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  Distance:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.99658203
+      inSlope: -0.9826461
+      outSlope: -0.9826461
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.99520963
+      value: 0.018643122
+      inSlope: -0.9826461
+      outSlope: -0.9826461
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e24455241804543b7411941772f756, type: 3}
+  m_Name: 8AttackTarget
+  m_EditorClassIdentifier: 
+  id: 8
+  Time:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.18699537
+      value: 0.09466553
+      inSlope: 0
+      outSlope: 0.62323964
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.08311453
+    - serializedVersion: 3
+      time: 1.9105366
+      value: 0.5107372
+      inSlope: 0.09468661
+      outSlope: 0.09468661
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3196052
+      outWeight: 0.051084004
+    - serializedVersion: 3
+      time: 9.273859
+      value: 0.6843877
+      inSlope: -0.022626365
+      outSlope: -0.022626365
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.17065293
+    - serializedVersion: 3
+      time: 15
+      value: 1.0021057
+      inSlope: 0.0021455558
+      outSlope: 0.0021455558
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.09823677
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ResourcePerMinute:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  Resources:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MilitaryPower:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  EnemyPower:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 1.4814528
+      outSlope: 1.4814528
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.05947912
+    - serializedVersion: 3
+      time: 50
+      value: 40
+      inSlope: 0.5274218
+      outSlope: 0.5274218
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.077905424
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  Ratio:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  Distance:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -0.71755165
+      outSlope: -0.71755165
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.99316406
+      value: 0.28735352
+      inSlope: -0.71755165
+      outSlope: -0.71755165
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
